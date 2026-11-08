@@ -1,32 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Grid Project</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Dashboard - Morgan Oakley</title>
 </head>
-
 <body>
-    
-    <div class="layout">
 
-        <aside class="sidebar">
-            <div class="logo">Dashboard</div>
-            <ul class="nav">
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-                <li class="spacer"></li>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
-        </aside>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="logo">▦ <span>Dashboard</span></div>
+    <ul class="nav">
+      <li>🏠 <span>Home</span></li>
+      <li>👤 <span>Profile</span></li>
+      <li>💬 <span>Messages</span></li>
+      <li>🕒 <span>History</span></li>
+      <li>📋 <span>Tasks</span></li>
+      <li>👥 <span>Communities</span></li>
+      <li class="spacer"></li>
+      <li>⚙️ <span>Settings</span></li>
+      <li>❓ <span>Support</span></li>
+      <li>✅ <span>Privacy</span></li>
+    </ul>
+  </aside>
 
-    </div>
+  <!-- MAIN -->
+  <div class="main">
+    <header class="header">
+      <div class="header-top">
+        <span>🔍</span>
+        <input class="search" placeholder="Search...">
+        <div class="user-top"><span>🔔</span><div class="avatar">🐱</div><span>Morgan Oakley</span></div>
+      </div>
+      <div class="header-bottom">
+        <div class="big-avatar">🐱</div>
+        <div><small>Hi there,</small><h2>Morgan Oakley (@morgan)</h2></div>
+        <div class="actions">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="content">
+      <!-- PROJECTS -->
+      <section>
+        <h2 style="margin-bottom:15px;">Your Projects</h2>
+        <div class="projects-grid">
+          <div class="card"><h3>Super Cool Project</h3><p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p><div class="icons">⭐ 👁️ 🔗</div></div>
+          <div class="card"><h3>Less Cool Project</h3><p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor.</p><div class="icons">⭐ 👁️ 🔗</div></div>
+          <div class="card"><h3>Impossible App</h3><p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p><div class="icons">⭐ 👁️ 🔗</div></div>
+          <div class="card"><h3>Easy Peasy App</h3><p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam.</p><div class="icons">⭐ 👁️ 🔗</div></div>
+          <div class="card"><h3>Ad Blocker</h3><p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis.</p><div class="icons">⭐ 👁️ 🔗</div></div>
+          <div class="card"><h3>Money Maker</h3><p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex.</p><div class="icons">⭐ 👁️ 🔗</div></div>
+        </div>
+      </section>
+
+      <!-- RIGHT SIDE -->
+      <aside class="side-panel">
+        <div>
+          <h2 style="margin-bottom:10px;">Announcements</h2>
+          <div class="panel">
+            <h3>Site Maintenance</h3><p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac.</p><br>
+            <h3>Community Share Day</h3><p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.</p><br>
+            <h3>Updated Privacy Policy</h3><p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor.</p>
+          </div>
+        </div>
+        <div>
+          <h2 style="margin-bottom:10px;">Trending</h2>
+          <div class="panel">
+            <div class="trend"><div class="avatar">🦖</div><div><b>@tegan</b><br><small>World Peace Builder</small></div></div>
+            <div class="trend"><div class="avatar">🐱</div><div><b>@morgan</b><br><small>Super Cool Project</small></div></div>
+            <div class="trend"><div class="avatar">🤖</div><div><b>@kendall</b><br><small>Life Changing App</small></div></div>
+            <div class="trend"><div class="avatar">👧</div><div><b>@alex</b><br><small>No Traffic Maker</small></div></div>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </div>
+</div>
+
 </body>
 </html>
