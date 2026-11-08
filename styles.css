@@ -1,7 +1,14 @@
-* { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, 
+    sans-serif; 
+}
 
-  body { background: #e2e8f0; }
-
+  body { 
+    background: gray; 
+}
 
   .layout {
     display: grid;
@@ -32,13 +39,14 @@
 
   /* Top bar */
   .header {
-    background: white;
+    background: lightgrey;
     padding: 15px 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   }
+  .header-top a:hover { cursor: pointer; background-color: #facc15;}
   .header-top { display: flex; align-items: center; gap: 20px; }
   .search { flex: 1; max-width: 600px; background: #e2e8f0; border: none; padding: 10px 15px; border-radius: 20px; }
   .user-top { margin-left: auto; display: flex; align-items: center; gap: 15px; font-weight: bold; }
@@ -65,7 +73,7 @@
   }
 
   .card {
-    background: white;
+    background: lightgrey;
     border-left: 8px solid #facc15;
     border-radius: 8px;
     padding: 20px;
